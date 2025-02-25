@@ -1,8 +1,21 @@
-.App {
-  text-align: center;
+.App-Navigation {
+  padding-top: 4rem;
+  padding-left: 5%;
 }
 
-.App-logo {
+.App-Logo {
+  width: 9.25rem;
+  height: 2.25rem;
+}
+
+.App-Navigation-List {
+  color: white;
+  list-style-type: none;
+  display: inline-block;
+  margin: 0;
+}
+
+/* .App-logo {
   height: 40vmin;
   pointer-events: none;
 }
@@ -35,4 +48,4 @@
   to {
     transform: rotate(360deg);
   }
-}
+} */
