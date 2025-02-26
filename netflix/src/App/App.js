@@ -9,9 +9,13 @@ function App() {
         <div className="App">
           <div className="App-Navigation">
             <nav>
-              <img className="App-Logo" src={Logo} alt=""/>
+              <img className="App-Logo" src={Logo} href="/" alt="Netflix logo"/>
               <ul className='App-Navigation-List'>
-                <li>Home</li>
+                <li><a href='/'>Home</a></li>
+                <li><a href='/'>TV Shows</a></li>
+                <li><a href='/'>Movies</a></li>
+                <li><a href='/'>New & Popular</a></li>
+                <li><a href='/'>My List</a></li>
               </ul>
             </nav>
           </div>

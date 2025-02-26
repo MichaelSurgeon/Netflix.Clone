@@ -1,11 +1,10 @@
-import '../../App/App.css';
+import './Home.css';
 
 function Home() {
   return (
-    <div className="App">
-      <header className="App-header">
+    <div>
+      <header>
         <p>
-          How is your day
         </p>
       </header>
     </div>
